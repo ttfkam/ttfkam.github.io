@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<svg width="400" height="400"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="m0,0h400v400h-400z" stroke="none">
+    <animate attributeName="fill" calcMode="discrete" repeatCount="indefinite"
+             values="#333;#FFF;#333" keyTimes="0;0.5;1" dur="3s"/>
+  </path>
+  <g id="crossColumn">
+    <path id="cross" d="m40,0v80m40,-40h-80" fill="none" stroke-width="26.666">
+      <animateTransform attributeName="transform" type="rotate" begin="0s" dur="3s"
+                        calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1"
+                        values="0 40 40;90 40 40;0 40 40"
+                        keyTimes="0;0.5;1"
+                        repeatCount="indefinite"/>
+      <animate attributeName="stroke" calcMode="discrete" repeatCount="indefinite"
+               values="#FFF;#333;#FFF" keyTimes="0;0.5;1" dur="3s"/>
+    </path>
+    <use xlink:href="#cross" x="26.666" y="80"/>
+    <use xlink:href="#cross" x="53.333" y="160"/>
+    <use xlink:href="#cross" x="80" y="240"/>
+    <use xlink:href="#cross" x="106.666" y="320"/>
+    <use xlink:href="#cross" x="133.333" y="400"/>
+    <animateTransform attributeName="transform" type="translate"
+             calcMode="discrete" begin="0s" dur="3s"
+             values="0 0;-53.333 -26.666;0 0" keyTimes="0;0.5;1"
+             repeatCount="indefinite"/>
+  </g>
+  <use xlink:href="#crossColumn" x="-80" y="26.333"/>
+  <use xlink:href="#crossColumn" x="80" y="-26.666"/>
+  <use xlink:href="#crossColumn" x="160" y="-53.333"/>
+  <use xlink:href="#crossColumn" x="266.666" y="0"/>
+  <use xlink:href="#crossColumn" x="346.666" y="-26.333"/>
+  <use xlink:href="#cross" x="-80" y="300">
+    <animateTransform attributeName="transform" type="translate"
+             calcMode="discrete" begin="0s" dur="3s"
+             values="0 0;-53.333 -26.666;0 0" keyTimes="0;0.5;1"
+             repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#cross" x="-53.666" y="373.333">
+    <animateTransform attributeName="transform" type="translate"
+             calcMode="discrete" begin="0s" dur="3s"
+             values="0 0;-53.333 -26.666;0 0" keyTimes="0;0.5;1"
+             repeatCount="indefinite"/>
+  </use>
+</svg>

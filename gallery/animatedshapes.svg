@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400" width="75" height="75" xmlns="http://www.w3.org/2000/svg">
+  <path>
+   <animate attributeName="d" dur="2s" repeatCount="indefinite" begin="0s"
+            values="m100,100q100,0 200,0 0,100 0,200 -100,0 -200,0 0,-100 0,-200z;
+                    m190,65q70,80 140,160 -56,13 -112,26 -56,13 -112,26 42,-106 84,-212z;
+                    m190,65q70,80 140,160 -56,13 -112,26 -56,13 -112,26 42,-106 84,-212z;
+                    m200,100q95,5 100,100 -5,95 -100,100 -95,-5 -100,-100 5,-95 100,-100z;
+                    m200,100q95,5 100,100 -5,95 -100,100 -95,-5 -100,-100 5,-95 100,-100z;
+                    m100,100q100,0 200,0 0,100 0,200 -100,0 -200,0 0,-100 0,-200z;
+                    m100,100q100,0 200,0 0,100 0,200 -100,0 -200,0 0,-100 0,-200z"/>
+   <animate attributeName="fill" dur="2s" repeatCount="indefinite" begin="0s"
+            values="#1EB287;#188EC1;#188EC1;#CA5F53;#CA5F53;#1EB287;#1EB287"/>
+   <animateTransform  attributeName="transform" type="rotate" dur="2s" repeatCount="indefinite" begin="0s"
+            		      values="0 200 200;130 200 200;132 200 200;239 200 200;241 200 200;358 200 200;360 200 200"/>
+  </path>
+</svg>
